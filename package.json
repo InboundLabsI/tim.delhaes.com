@@ -1,0 +1,19 @@
+{
+  "name": "tim.delhaes.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "[ -d build ] && rm -r build; cp -r src/ build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InboundLabsI/tim.delhaes.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InboundLabsI/tim.delhaes.com/issues"
+  },
+  "homepage": "https://github.com/InboundLabsI/tim.delhaes.com#readme"
+}
