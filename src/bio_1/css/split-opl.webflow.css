@@ -153,11 +153,45 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: url('../images/split.jpg');
+  background-image: url("../images/split.jpg");
   background-position: 50% 50%;
   background-size: cover;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.dao-talks {
+  display: grid;
+  width: auto;
+  grid-template-columns: 3.25rem auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 20px;
+  align-items: start;
+  justify-items: start;
+  color: #eee;
+  margin-bottom: 40px;
+}
+.dao-talks-avatar {
+  display: block;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: auto;
+  height: 100%;
+}
+.dao-talks img {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+.dao-talks-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  line-height: 1;
+}
+.dao-talks-subtitle {
+  font-size: 1rem;
+  line-height: 1;
 }
 
 @media screen and (max-width: 991px) {
@@ -227,4 +261,3 @@ a {
     max-height: 30vh;
   }
 }
-
